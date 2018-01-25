@@ -8,7 +8,7 @@ connection = mysql.createConnection({
 	database: 'aplicacionandroid'
 });
 
-
+///
 let userModel = {};
 
 userModel.getUsers = (callback) => {

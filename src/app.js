@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
 //settings
-app.set('port', process.env.PORT || 3000 );
+app.set('port', process.env.PORT || 5000 );
 
 
 //middlewares

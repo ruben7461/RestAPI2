@@ -23,7 +23,7 @@ require('./rutas/rutasUsuarios')(app);
 
 app.listen(app.get('port'), () => {
 
-console.log('server on port 3000', process.env.PORT);
+console.log('server on port:', process.env.PORT);
 });
 
 
